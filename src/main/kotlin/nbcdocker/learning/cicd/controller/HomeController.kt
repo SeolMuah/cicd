@@ -8,11 +8,11 @@ class HomeController {
 
     @GetMapping("/")
     fun home(): String {
-        return "home"
+        return "BabaHome"
     }
 
     @GetMapping("/healthz")
     fun healthz(): String {
-        return "healthz"
+        return "muahHome"
     }
 }
